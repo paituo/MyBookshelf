@@ -9,13 +9,14 @@
         app:showAsAction="ifRoom" />
 
     <item
-        android:id="@+id/action_login"
-        android:title="@string/login"
-        app:showAsAction="never" />
+        android:id="@+id/action_debug_source"
+        android:icon="@drawable/ic_bug_report_black_24dp"
+        android:title="@string/debug_source"
+        app:showAsAction="ifRoom" />
 
     <item
-        android:id="@+id/action_share_it"
-        android:title="@string/share"
+        android:id="@+id/action_login"
+        android:title="@string/login"
         app:showAsAction="never" />
 
     <item
@@ -34,8 +35,13 @@
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_debug_source"
-        android:title="@string/debug_source"
+        android:id="@+id/action_share_it"
+        android:title="@string/qr_share"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_share_wifi"
+        android:title="@string/wifi_share"
         app:showAsAction="never" />
 
     <item
